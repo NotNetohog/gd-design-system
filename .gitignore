@@ -9,7 +9,10 @@
 /coverage
 
 # production
-/build
+build
+dist
+sotybook-static
+.cache
 
 # misc
 .DS_Store

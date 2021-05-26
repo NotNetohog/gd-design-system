@@ -1,0 +1,137 @@
+import { Meta, Story, Canvas, ArgsTable } from "@storybook/addon-docs/blocks";
+import { linkTo } from "@storybook/addon-links/react";
+
+import { Button } from "./Button";
+
+<Meta title="Components/Buttons/Variations" component={Button} />
+
+# Variations
+
+- [Primary button](?path=/docs/components-buttons-variations--page#primary-button)
+- [Secondary button](?path=/docs/components-buttons-variations--page#secondary-button)
+- [Tertiary button](?path=/docs/components-buttons-variations--page#tertiary-button)
+- [Other button variations](?path=/docs/components-buttons-variations--page#other-button-variations)
+- [Button groups](?path=/docs/components-buttons-variations--page#button-groups)
+- [Available props](?path=/docs/components-buttons-variations--page#available-props)
+
+## Primary button
+
+The primary button is used for the most important action on a page or in a view.
+
+<Canvas>
+  <Story id="components-buttons-all-stories--primary-button" />
+</Canvas>
+
+### States
+
+Primary buttons have idle, disabled, hover, active, and focus states. Head to the Canvas tab on the Properties page to interact with the different states and options that are possible.
+
+<Canvas>
+  <Story id="components-buttons-all-stories--primary-states" />
+</Canvas>
+
+### Sizes
+
+The size of the primary button depends on the base font size used which can be adapted to the viewport width.
+
+<Canvas>
+  <Story id="components-buttons-all-stories--primary-sizes" />
+</Canvas>
+
+## Secondary button
+
+The secondary button is used for subordinate actions.
+
+<Canvas>
+  <Story id="components-buttons-all-stories--secondary-button" />
+</Canvas>
+
+### States
+
+Secondary buttons have idle, disabled, hover, active, and focus states. Head to the Canvas tab on the Properties page to interact with the different states and options that are possible.
+
+<Canvas>
+  <Story id="components-buttons-all-stories--secondary-states" />
+</Canvas>
+
+### Sizes
+
+The size of the secondary button depends on the base font size used which can be adapted to the viewport width.
+
+<Canvas>
+  <Story id="components-buttons-all-stories--secondary-sizes" />
+</Canvas>
+
+## Tertiary button
+
+The tertiary button is applied as a subtle call to action.
+
+<Canvas>
+  <Story id="components-buttons-all-stories--tertiary-button" />
+</Canvas>
+
+### States
+
+Tertiary buttons have idle, disabled, hover, active, and focus states. Head to the Canvas tab on the Properties page to interact with the different states and options that are possible.
+
+<Canvas>
+  <Story id="components-buttons-all-stories--tertiary-states" />
+</Canvas>
+
+### Sizes
+
+The size of the tertiary button depends on the base font size used which can be adapted to the viewport width.
+
+<Canvas>
+  <Story id="components-buttons-all-stories--tertiary-sizes" />
+</Canvas>
+
+### Other button variations
+
+#### Icon button
+
+The icon button allows an icon to be placed to the left of the label.
+
+<Canvas>
+  <Story id="components-buttons-all-stories--icon-buttons" />
+</Canvas>
+
+#### Stretched button
+
+Stretched buttons indicate the most important function of a page or view. It should also be used for small viewports.
+
+<Canvas>
+  <Story id="components-buttons-all-stories--stretched-button" />
+</Canvas>
+
+## Button groups
+
+Buttons can be grouped to offer several actions alongside each other. The number of buttons should be easy for the user to grasp. A single, important action can be emphasised as the primary button in order to guide the user.
+
+### Primary and secondary groups
+
+The primary button emphasises a more important action compared to the secondary button. Only one primary button is used per view, but this can be combined with several secondary buttons.
+
+<Canvas>
+  <Story id="components-buttons-all-stories--primary-groups" />
+</Canvas>
+
+### Secondary groups
+
+Unlike primary buttons, secondary buttons can be combined directly adjacent to one another if the options for actions offered are equivalent.
+
+<Canvas>
+  <Story id="components-buttons-all-stories--secondary-groups" />
+</Canvas>
+
+### Tertiary groups
+
+Tertiary buttons can likewise be grouped directly adjacently to one another. However, they are not mixed in a button group with primary or secondary buttons that are immediately adjacent.
+
+<Canvas>
+  <Story id="components-buttons-all-stories--tertiary-groups" />
+</Canvas>
+
+## Available props
+
+<ArgsTable of={Button} />
